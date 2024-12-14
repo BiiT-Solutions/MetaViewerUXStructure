@@ -1,0 +1,13 @@
+{
+  "name": "meta-viewer-structure-lib",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "authorization-services-lib": "latest",
+    "@angular/common": "v15-lts",
+    "@angular/core": "v15-lts"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
