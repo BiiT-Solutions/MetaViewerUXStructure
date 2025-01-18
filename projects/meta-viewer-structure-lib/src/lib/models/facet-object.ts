@@ -2,8 +2,8 @@ import {Value} from "./value";
 
 export class FacetObject {
 
-  name: string;
-  type: Value;
+  Name: string;
+  Type: Value;
 
   public static clone(from: FacetObject): FacetObject {
     const to: FacetObject = new FacetObject();
@@ -12,7 +12,7 @@ export class FacetObject {
   }
 
   public static copy(from: FacetObject, to: FacetObject): void {
-    to.name = from.name;
-    to.type = from.type;
+    to.Name = from.Name;
+    to.Type = from.Type;
   }
 }
