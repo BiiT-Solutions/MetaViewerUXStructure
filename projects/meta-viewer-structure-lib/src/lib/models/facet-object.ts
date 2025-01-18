@@ -1,7 +1,9 @@
+import {Value} from "./value";
+
 export class FacetObject {
 
   name: string;
-  type: Object;
+  type: Value;
 
   public static clone(from: FacetObject): FacetObject {
     const to: FacetObject = new FacetObject();

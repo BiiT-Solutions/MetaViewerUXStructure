@@ -7,6 +7,7 @@ export * from './lib/models/facet-category';
 export * from './lib/models/facet-object';
 export * from './lib/models/item';
 export * from './lib/models/items';
+export * from './lib/models/value';
 
 export * from './lib/services/caching.service';
 export * from './lib/services/cadt.service';
