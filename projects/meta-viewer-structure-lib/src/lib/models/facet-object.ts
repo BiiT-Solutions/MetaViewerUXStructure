@@ -1,7 +1,7 @@
 export class FacetObject {
 
   name: string;
-  type: object;
+  type: Object;
 
   public static clone(from: FacetObject): FacetObject {
     const to: FacetObject = new FacetObject();
