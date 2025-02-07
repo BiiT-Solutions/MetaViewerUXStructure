@@ -8,7 +8,7 @@ import {Collection} from "../models/collection";
   providedIn: 'root'
 })
 export class CadtService {
-  private static readonly ROOT_PATH: string = '/cadt'
+  private static readonly ROOT_PATH: string = '/metaviewer'
 
   constructor(private rootService: MetaViewerStructureRootService, private httpClient: HttpClient) { }
 
