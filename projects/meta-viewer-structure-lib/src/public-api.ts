@@ -11,6 +11,7 @@ export * from './lib/models/value';
 
 export * from './lib/services/caching.service';
 export * from './lib/services/cadt.service';
+export * from './lib/services/nca.service';
 export * from './lib/services/meta-viewer-structure-root.service';
 export * from './lib/services/auth.service';
 export * from './lib/services/session.service';
