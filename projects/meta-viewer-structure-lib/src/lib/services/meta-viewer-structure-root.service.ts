@@ -1,14 +1,15 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {RootPath} from "authorization-services-lib";
 
 @Injectable({
   providedIn: 'root'
 })
-export class MetaViewerStructureRootService implements RootPath{
+export class MetaViewerStructureRootService implements RootPath {
 
   private rootUrl: URL = null;
 
-  constructor() { }
+  constructor() {
+  }
 
   public set serverUrl(url: URL) {
     this.rootUrl = url;
