@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {SessionService as AuthSessionService} from "authorization-services-lib";
+import {SessionService as AuthSessionService} from "@biit-solutions/authorization-services";
 import {Constants} from "../constants";
 import {AuthService} from "./auth.service";
 
