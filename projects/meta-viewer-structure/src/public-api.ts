@@ -1,5 +1,5 @@
 /*
- * Public API Surface of meta-viewer-structure-lib
+ * Public API Surface of meta-viewer-structure
  */
 
 export * from './lib/models/collection';
